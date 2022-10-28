@@ -88,7 +88,7 @@ class Client(object):
         """
         return self._get(path="list_connectors", params={})
 
-    def connectors(self, connector="google_ads", **params):
+    def connectors(self, connector="twitter", **params):
         """
         Fetch data from Windsor.ai
         Get data from one of the available windsor connectors.
